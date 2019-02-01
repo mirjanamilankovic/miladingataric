@@ -1,0 +1,121 @@
+html {
+    margin: 0;
+    padding; 0;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Uvijek na pocetku rada na sajtu potrebno je staviti margine i padinge na nulu jer imaju pocetne vrijednosti koje treba resetovati */
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.wrap {
+    max-width:900px;
+    margin:0 auto;
+    padding:20px;
+}
+/* Na ovaj wrap dodao sam marginu 0 auto da centrira sadrzaj, na netu sam citao da su sada svi sajtovi centrirani, oni to nazivaju "u gridu" */
+
+img {
+    max-width: 100%;
+    height:auto;
+}
+
+/* Stavljam max width na sliku - da ne bjezi, ne širi se, previšre se uveća. Upisati i height auto. To sam izguglao.*/
+
+.zaglavlje {
+    text-align: center;
+    background: #9fff77;
+    padding: 20px;
+}
+
+.navigacija {
+    list-style: none;
+    padding: 0;
+    margin-top: 30px;
+}
+
+    .navigacija li {
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+        .navigacija li a {
+            color: #000;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 13px;
+            letter-spacing: 1px;
+            font-weight: bold;
+        }
+.pozadinska-slika img {
+    width:100%;
+    height:auto;
+    display: block;
+        
+}
+
+.text-blok {
+    padding: 10px;
+    text-align: center;
+}
+
+.footer {
+    background-color: #9fff77;
+    text-align: center;
+    padding:30px;
+    margin-top:30px;
+}
+
+/* Footer uvijek odvojiti od sadržaja sajta, izgleda ljepše */
+
+.footer svg {
+    fill:#000;
+}
+/* Svg ikonice nemaju background color vec fill ako hocu da ih obojim */
+
+.footer h6 {
+    color:#000;
+    font-size:12px;
+    margin:0;
+}
+
+.biro {
+    padding:20px;
+    padding-bottom:0;
+}
+    .biro h2 {
+        text-align: center;
+    }
+
+    .biro img {
+        display: block;
+        margin:0 auto;
+    }
+.prazan_prostor {
+    padding:20px 0;
+}
+
+
+.galerija-slika img {
+    width:100%;
+    height:auto;
+   }
+/*Ovako dodate slike se smještaju ka dole, jer su block display, postoje načini drugačijeg smještanja slika ali mi je to teško */
+
+
+.google-mapa {
+    max-width:100%;
+}
+
+.tabela-cijena {
+    width:100%;
+}
+
+.tabela-usluga {
+    padding-bottom: 30px;
+}
